@@ -1,0 +1,65 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Clean-Backgrounds.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Muli', sans-serif;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  margin-top: 15px;
+  // box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.food-pic{
+  width: 140px;
+  height: 140px; 
+}
+
+.thumbnail{
+  height: 300px;
+  text-align: center;
+  margin-right: 10px;
+  font-family: 'Muli', sans-serif;
+  background-color: #d4cb98;
+}
+
+.thumbnail a{
+  color: #36454f;
+  text-decoration: underline;
+}
+
+form{
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#entry{
+  width: 30%;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+#search-button{
+  width: 100px;
+  padding: 12px;
+}
+
+#recipe-container{
+  margin-bottom: 30px;
+}
