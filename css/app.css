@@ -5742,6 +5742,13 @@ body {
   background-repeat: no-repeat;
   font-family: 'Muli', sans-serif; }
 
+h1 {
+  color: #fff; }
+
+h3 {
+  font-size: 16px;
+  font-weight: bold; }
+
 img {
   width: 140px;
   height: 140px;
@@ -5757,7 +5764,7 @@ img {
   text-align: center;
   margin-right: 10px;
   font-family: 'Muli', sans-serif;
-  background-color: #d4cb98; }
+  background-color: #C0C5CE; }
 
 .thumbnail a {
   color: #36454f;
@@ -5774,7 +5781,11 @@ form {
 
 #search-button {
   width: 100px;
-  padding: 12px; }
+  padding: 12px;
+  color: #d94c2c;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: #fff; }
 
 #recipe-container {
   margin-bottom: 30px; }
